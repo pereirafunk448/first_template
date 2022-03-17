@@ -1,9 +1,9 @@
 from flask import Flask
 app = Flask('app')
 
-@app.route('/Minha primeira rota!')
+@app.route('/')
 def hello_world():
-  return '<h1>Hello, World!</h1>'
+  return '<h1>Minha primeira rota!</h1>'
 
 
 
